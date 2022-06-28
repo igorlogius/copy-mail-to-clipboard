@@ -46,6 +46,3 @@ modifyMailtoLinks();
 
 (new MutationObserver(modifyMailtoLinks)).observe(document.body, { attributes: false, childList: true, subtree: true });
 
-
-
-
